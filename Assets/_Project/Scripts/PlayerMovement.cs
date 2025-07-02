@@ -5,8 +5,7 @@ namespace _Project.Scripts
 {
     public class PlayerMovement : MonoBehaviour
     {
-        [Header("Keybinds")]
-        public KeyCode JumpKey = KeyCode.Space;
+        private readonly KeyCode _jumpKey = KeyCode.Space;
         
         [Header("Movement")]
         [SerializeField] private float _moveSpeed;
@@ -61,7 +60,7 @@ namespace _Project.Scripts
         {
             _horizontalInput = Input.GetAxisRaw("Horizontal");
             _verticalInput = Input.GetAxisRaw("Vertical");
-            if(Input.GetKey(JumpKey) && _isReadyToJump && _isGrounded)
+            if(Input.GetKey(_jumpKey) && _isReadyToJump && _isGrounded)
             {
                 _isReadyToJump = false;
                 Jump();

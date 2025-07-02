@@ -1184,7 +1184,7 @@ GameObject:
   - component: {fileID: 727533947}
   - component: {fileID: 727533948}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: ReastartManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2326,8 +2326,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 727533947}
   - {fileID: 567767566}
+  - {fileID: 727533947}
   - {fileID: 712879817}
   - {fileID: 873182388}
   - {fileID: 410087041}

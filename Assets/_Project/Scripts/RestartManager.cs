@@ -3,13 +3,13 @@ using UnityEngine.SceneManagement;
 
 namespace _Project.Scripts
 {
-    public class GameManager : MonoBehaviour
+    public class RestartManager : MonoBehaviour
     {
-        public KeyCode RestartKey = KeyCode.R;
+        private readonly KeyCode _restartKey = KeyCode.R;
 
         private void Update()
         {
-            if (Input.GetKeyDown(RestartKey))
+            if (Input.GetKeyDown(_restartKey))
             {
                 RestartScene();
             }
