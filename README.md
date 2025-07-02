@@ -1,7 +1,7 @@
 # Grappling-Hook
 
-Тестовое задание по реализации механики «Verlet-Rope Grappling Hook»
-Verlet-Rope Grappling Hook
+Тестовое задание по реализации механики
+«Verlet-Rope Grappling Hook»
 
 1.Технические данные:
 Версия Unity: 6000.0.23f1 (LTS) или новее
