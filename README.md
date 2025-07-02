@@ -2,11 +2,12 @@
 A test assignment for the implementation of the "Verlet-Rope Grappling Hook" mechanics
 Verlet-Rope Grappling Hook
 Технические данные
-Версия Unity: 2022.3 (LTS) или новее
+Версия Unity: 6000.0.23f1 (LTS) или новее
 
 Платформа: WebGL
 
 Инструкция по запуску
+
 Управление:
 
 ЛКМ - выстрелить крюком
