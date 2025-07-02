@@ -1,6 +1,6 @@
 # Grappling-Hook
 
-A test assignment for the implementation of the "Verlet-Rope Grappling Hook" mechanics
+Тестовое задание по реализации механики «Verlet-Rope Grappling Hook»
 Verlet-Rope Grappling Hook
 
 1.Технические данные:
